@@ -1,0 +1,60 @@
+body {
+  font-family: 'Lucida Sans Unicode';
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  text-align: center;
+  background-color: #3281A8;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.input-label {
+  margin-right: 5px;
+}
+
+.input-value {
+  margin-right: 5px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.forecast-data {
+  text-align: center;
+}
+
+.forecast-rows {
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.forecast-row {
+  margin-top: 20px;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#search {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#forecast-data-5-day {
+  padding-bottom: 100px;
+}

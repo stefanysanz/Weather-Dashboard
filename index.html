@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+
+  <div id="app">
+
+    <div id="header">Weather Dashboard</div>
+
+    <div id="search">
+      <span class="input-label"> Enter City Name:</span><input id="city" class="input-value" type="text">
+      <span class="input-label">State:</span><input id="state" class="input-value" type="text">
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div id="forecast-current">
+      <div class="header">Current Forecast</div>
+      <div id="forecast-data-current" class="forecast-data"></div>
+    </div>
+
+    <div id="forecast-five-day">
+      <div class="header">5 Day Forecast</div>
+      <div id="forecast-data-5-day" class="forecast-data"></div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
